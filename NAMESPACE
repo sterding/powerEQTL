@@ -1,0 +1,19 @@
+export(
+  minEffectEQTL.ANOVA,
+  minSlopeEQTL.SLR,
+  powerEQTL.ANOVA,
+  powerEQTL.ANOVA2,
+  powerEQTL.SLR,
+  ssEQTL.ANOVA,
+  ssEQTL.ANOVA2,
+  ssEQTL.SLR
+)
+
+import(powerMediation)
+
+importFrom(stats,
+           qf,
+           pf,
+           optim
+          )
+importFrom("stats", "uniroot")

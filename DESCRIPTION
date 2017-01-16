@@ -1,0 +1,28 @@
+Package: powerEQTL
+Type: Package
+Title: Power and Sample Size Calculation for eQTL Analysis
+Version: 0.0.9
+Date: 2017-01-13
+Authors@R: c(
+             person("Xianjun", "Dong", role=c("aut", "ctb"),
+                     email = "XDONG@rics.bwh.harvard.edu"),
+             person("Tzuu-Wang", "Chang", role = c("aut", "ctb"),
+                     email = "Chang.Tzuu-Wang@mgh.harvard.edu"),
+             person("Scott T.", "Weiss", role = c("aut", "ctb"),
+                     email = "restw@channing.harvard.edu"),
+             person("Weiliang", "Qiu", role=c("aut", "cre"),
+                     email = "stwxq@channing.harvard.edu")
+            )
+Author: Xianjun Dong [aut, ctb],
+        Tzuu-Wang Chang [aut, ctb],
+        Scott T. Weiss [aut, ctb],
+        Weiliang Qiu [aut, cre]
+Maintainer: Weiliang Qiu <stwxq@channing.harvard.edu>
+Depends: R (>= 3.3.0), powerMediation
+Imports: stats
+Description: Power and sample size calculation for eQTL analysis
+             based on ANOVA or simple linear regression.
+License: GPL (>=2)
+LazyData: TRUE
+NeedsCompilation: no
+Packaged: 2017-01-13 20:22:09 UTC; stwxq
