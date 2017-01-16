@@ -1,5 +1,7 @@
 export(
   minEffectEQTL.ANOVA,
+  minMAFeQTL.ANOVA,
+  minMAFeQTL.SLR,
   minSlopeEQTL.SLR,
   powerEQTL.ANOVA,
   powerEQTL.ANOVA2,
@@ -9,7 +11,10 @@ export(
   ssEQTL.SLR
 )
 
-import(powerMediation)
+importFrom(powerMediation,
+           minEffect.SLR,
+           power.SLR,
+           ss.SLR)
 
 importFrom(stats,
            qf,

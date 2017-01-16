@@ -1,3 +1,6 @@
+# v0.1.0 created on Jan. 15, 2017
+#  (1) move "powerMediation" from Depends to Imports
+#  (2) add functions 'minMAFeQTL.ANOVA' and 'minMAFeQTL.SLR'
 # v0.0.9 created on Jan. 13, 2017
 #  (1) revised 'minEffectEQTL.ANOVA'
 #
