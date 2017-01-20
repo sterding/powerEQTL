@@ -1,7 +1,7 @@
 Package: powerEQTL
 Type: Package
 Title: Power and Sample Size Calculation for eQTL Analysis
-Version: 0.1.0
+Version: 0.1.1
 Date: 2017-01-15
 Authors@R: c(
              person("Xianjun", "Dong", role=c("aut", "ctb"),

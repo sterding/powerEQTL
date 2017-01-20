@@ -1,3 +1,6 @@
+# v0.1.1 created on Jan. 19, 2017
+#  (1) fixed a typo in minMAFeQTL.sLR.Rd: value should be minimum detectable MAF
+#
 # v0.1.0 created on Jan. 15, 2017
 #  (1) move "powerMediation" from Depends to Imports
 #  (2) add functions 'minMAFeQTL.ANOVA' and 'minMAFeQTL.SLR'

@@ -55,7 +55,7 @@ predictor (i.e. the SNP) \eqn{x_i}{x_i}.
 We then can use Dupont and Plummer's (1998) power/sample size calculation formula to calculate the minimum detectable slope, adjusting for multiple testing.
 }
 \value{
-The estimated minimum detectable slope.
+The estimated minimum detectable MAF.
 }
 \references{
 Dupont, W.D. and Plummer, W.D.. Power and Sample Size Calculations for Studies Involving Linear Regression. Controlled Clinical Trials. 1998;19:589-601.
