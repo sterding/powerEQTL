@@ -9,7 +9,9 @@ R package for power analysis for eQTL study
 
 
 ```{r}
+# library(devtools);install_github("sterding/powerEQTL")  
 library('powerEQTL')
+
 # sample size
 N <- c(50,100,150,200,250,300)
 nn <- length(N)
