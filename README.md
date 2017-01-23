@@ -28,13 +28,14 @@ a=0.05
 power_unbalanced <- array(numeric(nn*nq), dim=c(nn,nq))
 for (i in 1:nn){
     for (j in 1:nq){
-        # unbalanced ANOVA
+        # unbalanced
         result <- powerEQTL.ANOVA(MAF=MAF[j], 
-                            typeI=a, 
-                            nSNPs=nSNP, 
-                            myntotal=N[i], 
-                            mystddev=0.13, delta=0.13)
-
+                                  typeI=a, 
+                                  nTests=nSNP, 
+                                  myntotal=N[i], 
+                                  mystddev=0.13,
+                                  deltaVec = c(0.13, 0.13),
+                                  verbose = F)
         power_unbalanced[i,j] <-result;
     }
 }
