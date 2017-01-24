@@ -79,7 +79,7 @@ Weiliang Qiu <stwxq@channing.harvard.edu>
 minMAFeQTL.SLR(slope = 0.1299513,
                typeI = 0.05,
                nTests = 200000,
-               myntotal = 200,
+               myntotal = 176,
                mypower = 0.8,
                mystddev = 0.13,
                verbose = TRUE)

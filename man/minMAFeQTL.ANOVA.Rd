@@ -94,7 +94,7 @@ Weiliang Qiu <stwxq@channing.harvard.edu>
 minMAFeQTL.ANOVA(effsize = 1, 
                  typeI = 0.05,
                  nTests = 200000,
-                 myntotal = 200,
+                 myntotal = 234,
                  mypower = 0.8,
                  verbose = TRUE)
 

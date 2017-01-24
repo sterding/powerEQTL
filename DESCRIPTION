@@ -1,8 +1,8 @@
 Package: powerEQTL
 Type: Package
 Title: Power and Sample Size Calculation for eQTL Analysis
-Version: 0.1.1
-Date: 2017-01-15
+Version: 0.1.2
+Date: 2017-01-23
 Authors@R: c(
              person("Xianjun", "Dong", role=c("aut", "ctb"),
                      email = "XDONG@rics.bwh.harvard.edu"),
@@ -21,7 +21,8 @@ Maintainer: Weiliang Qiu <stwxq@channing.harvard.edu>
 Depends: R (>= 3.3.0)
 Imports: stats, powerMediation
 Description: Power and sample size calculation for eQTL analysis
-             based on ANOVA or simple linear regression.
+             based on ANOVA or simple linear regression. It can also calculate power/sample size 
+             for testing the association of a SNP to a continuous type phenotype.
 License: GPL (>=2)
 LazyData: TRUE
 NeedsCompilation: no

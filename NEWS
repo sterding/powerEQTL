@@ -1,3 +1,7 @@
+# v0.1.2 created on Jan. 23, 2017
+#  (1) revise "Description" section in DESCRIPTION file
+#  (2) In example of "minMAFeQTL.ANOVA.Rd": "replace myntotal = 200" by "myntotal = 234"
+
 # v0.1.1 created on Jan. 19, 2017
 #  (1) fixed a typo in minMAFeQTL.sLR.Rd: value should be minimum detectable MAF
 #
